@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>weather</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <link rel="stylesheet" href="./css/all.min.css">
+</head>
+<body>
+<div class="site">
+    <nav>
+        <div class="container">
+                <a class="logo" href="./index.html">
+                    <img src="./logo@2x.png" alt="logo" width="64" height="38">
+                <div class="logoType">
+                    <h1 class="site-title">
+                        Weather
+                    </h1>
+                    <p class="site-description">
+                        tagline goes here
+                    </p>
+                </div>
+                </a>
+            <div class="navbar">
+                    <ul class="nav nav-tabs">
+                        <li class="nav-item">
+                          <a class="nav-link active" aria-current="page" href="#">Home</a>
+                        </li>
+                        <li class="nav-item">
+                          <a class="nav-link" href="#">News</a>
+                        </li>
+                        <li class="nav-item">
+                          <a class="nav-link" href="#">Live cameras</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">photo</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">contact</a>
+                        </li>         
+                      </ul>
+                </div>
+        </div>
+    </nav>
+    <main>
+        <div class="container">
+            <form class="findLocation">
+                <input type="text" placeholder="Find your location..." id="search">
+                <input type="button" value="find" id="submit">
+            </form>
+        </div>
+    </main>
+    
+   
+    <section>
+      <div class="container forecastContainer" id="forecast"></div>
+    </section>
+      
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-8">
+                    <form class="subscribe-form">
+                            <input type="text" class="form-control" placeholder="Enter your email to subscribe..." aria-label="Enter your email to subscribe..." aria-describedby="button-addon2">
+                            <input class="btn btn-outline-secondary" type="submit" id="button-addon2" value="Subscribe">
+                    </form>
+                </div>
+                <div class="col-md-3 col-md-offset-1">
+                    <div class="socialLink">
+                        <a href="">
+                            <i class="fa-brands fa-facebook"></i>
+                        </a>
+                        <a href="">
+                            <i class="fa-brands fa-twitter"></i>
+                        </a>
+                        <a href="">
+                            <i class="fa-brands fa-google"></i>
+                        </a>
+                        <a href="">
+                            <i class="fa-brands fa-pinterest"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+</div>
+    <script src="./index.js"></script>
+    <script src="./js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
